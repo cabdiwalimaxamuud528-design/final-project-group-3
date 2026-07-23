@@ -1,0 +1,252 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+.madax{ 
+    background-color: #3f2222;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    margin-top: -20px;
+    gap: 20px;
+    padding: 10px;
+    position: fixed;
+    }
+    .logo{
+        width: 300px;
+        height: 70px;
+        
+        
+    justify-content: space-between;
+    align-items: center;
+   
+    }
+    
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1b1b1b;
+  color: #f4efe8;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #f4efe8;
+}
+
+p {
+  color: #cbbfae;
+}
+
+a {
+   text-decoration: none;
+            color: gold;
+            font-size: 20px;
+            margin: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            display: flex;
+  list-style: none;
+}
+a.boking{
+          border: 2px solid gold;
+            color: gold;
+            padding: 7px;
+            border-radius: 10px;}
+
+a:hover {
+  color: #ffffff;
+}
+
+
+.booking {
+  padding: 10px 5%;
+  background-color: #0f0d0a;
+  text-align: center;
+  border-bottom: 1px solid #3a332a;
+}
+.booking.qoraal {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin: 0 0 4px;
+  color: #c89b3c;
+}
+
+.booking .yar {
+  font-size: 13px;
+  margin: 0;
+  color: #cbbfae;
+}
+
+
+header {
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background-color: #211c16;
+  
+  top: 0;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #c89b3c;
+}
+
+nav ul {
+  
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: #f4efe8;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #c89b3c;
+}
+
+.hero { Display: flex;
+  padding: 60px 5%;
+  background: linear-gradient(to bottom, #1b1b1b, #211c16);
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+
+.booking-section {
+  Display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 40px 5%;
+}
+
+.booking-info {
+  flex: 1;
+  min-width: 250px;
+}
+
+.info-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
+
+.booking-info ul {
+  padding-left: 20px;
+}
+
+.booking-info ul li {
+  margin-bottom: 8px;
+}
+
+
+.booking-form {
+  flex: 2;
+  min-width: 300px;
+  background-color: #211c16;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.5);
+}
+
+fieldset {
+  border: none;
+  border-top: 1px solid #3a332a;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+fieldset:nth-of-type(1) {
+  border-top: none;
+  padding-top: 0;
+}
+
+legend {
+  font-weight: 600;
+  color: #c89b3c;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #4a4236;
+  background-color: #2b241c;
+  color: #f4efe8;
+  font-family: 'Open Sans', sans-serif;
+}
+
+textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-color: #c89b3c;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: #c89b3c;
+  color: #1b1b1b;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #e0b563;
+}
+
+
+footer {
+  padding: 25px 5%;
+  border-top: 1px solid #3a332a;
+}

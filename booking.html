@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book a Session - Lumen Studio</title>
+  <meta name="description" content="Book your photography session with Lumen Studio online.">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+   <header class="madax">
+        <div class="logo">
+            <img src="logo.png" alt="logo" class="logo">
+        </div>
+
+        <a href="index.html">home</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="service1.html">service</a>
+            <a href="project.html">pricin</a>
+            <a href="booking.html" class="boking">bookin</a>
+        </header> 
+
+  <nav class="booking">
+    <h1 class="qoraal">Ku soo dhawow website-ka Lumen Studio</h1>
+    <p class="yar">Waxaan nahay Group 3, koox ka kooban arday u shaqeynaya horumarinta websaydhyada.</p>
+  </nav>
+
+  <header>
+    <div class="logo">Lumen Studio</div>
+    
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Book a Session</h1>
+      <p>Fill in the form below to reserve your photography session. We will confirm by email within one day.</p>
+    </section>
+
+    <section class="booking-section">
+
+      <div class="booking-info">
+        <img src="https://images.stockcake.com/public/3/d/5/3d5e65b7-0fd4-453b-8234-006f0aee5404_medium/photo-studio-setup-stockcake.jpg" alt="Well-lit photography studio with lighting equipment and a white backdrop" class="info-img">
+
+        <h2>Before You Book</h2>
+        <p>We are open every day. Studio sessions come with two backdrops and basic lighting. On-location sessions include travel within the city.</p>
+        <ul>
+          <li>Studio half-day: 2 hours</li>
+          <li>Studio full-day: 5 hours</li>
+          <li>On-location: from 1 hour</li>
+          <li>Photo delivery: 7-10 days</li>
+        </ul>
+        <p>Email: hello@lumenstudio. | Phone: +252 61 234 5678</p>
+      </div>
+
+      <div class="booking-form">
+        <h2>Reserve Your Session</h2>
+        <p>Fields with * are required.</p>
+
+        <form id="bookingForm" action="#" method="post">
+
+          <fieldset>
+            <legend>Client Details</legend>
+
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Enter your name" required minlength="2">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Session Details</legend>
+
+            <div class="form-group">
+              <label for="sessionType">Session Type *</label>
+              <select id="sessionType" name="sessionType" required>
+                <option value="">-- Choose a session --</option>
+                <option value="portrait">Portrait</option>
+                <option value="wedding">Wedding</option>
+                <option value="event">Event</option>
+                <option value="product">Product</option>
+                <option value="family">Family</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+
+            <div class="form-group">
+              <label>Location *</label><br>
+              <input type="radio" id="studio" name="location" value="studio" checked>
+              <label for="studio">In-Studio</label>
+
+              <input type="radio" id="onlocation" name="location" value="onlocation">
+              <label for="onlocation">On-Location</label>
+            </div>
+
+            <div class="form-group">
+              <label for="notes">Additional Notes</label>
+              <textarea id="notes" name="notes" placeholder="Tell us more about your shoot"></textarea>
+            </div>
+
+            <div class="form-group">
+              <input type="checkbox" id="agree" name="agree" required>
+              <label for="agree">I agree to be contacted about this booking *</label>
+            </div>
+          </fieldset>
+
+          <button type="submit">Request Booking</button>
+        </form>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lumen Studio. All rights reserved.</p>
+    <ul class="social-links">                     
+      <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+      <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+      <li><a href="https://google.com" target="_blank">Google</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
