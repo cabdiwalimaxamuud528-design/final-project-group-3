@@ -1,3 +1,6 @@
+
+
+
 .madax{ 
     background-color: #3f2222;
     display: flex;
@@ -8,6 +11,7 @@
     gap: 20px;
     padding: 10px;
     position: fixed;
+   
    
   
     }
